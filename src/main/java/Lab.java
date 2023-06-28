@@ -20,7 +20,14 @@ public class Lab {
      *
      * Check out this guide on throwing exceptions: https://rollbar.com/guides/java/how-to-throw-exceptions-in-java/#
      */
-    public void mustThrow() {
+    public void mustThrow() throws Exception {
 
+        int a = 5;
+        int b = 0;
+
+        // dividion by 0 Arithmetic Exception
+        
+        int sum = a / b;
+        
     }
 }
